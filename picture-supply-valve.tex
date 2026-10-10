@@ -4,17 +4,17 @@
 
     \begin{tikzpicture}
         %图片
-        \node at (0,0) {\includegraphics[height=5cm]{g04.PNG}};
+        \node at (0,0) {\includegraphics[height=4cm]{g04.PNG}};
 
         %说明
         \def \itemNumber {1};
-        \def \centertPoint {0.6,0.3};
-        \node at (5,2) (\itemNumber) [text_box] {泵1供药阀};
+        \def \centertPoint {1.1,-0.5};
+        \node at (5,1) (\itemNumber) [text_box] {泵1供药阀};
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
         \def \itemNumber {2};
-        \def \centertPoint {-0.6,0.3};
-        \node at (-5,2) (\itemNumber) [text_box] {泵2供药阀};
+        \def \centertPoint {-1.1,-0.5};
+        \node at (-5,1) (\itemNumber) [text_box] {泵2供药阀};
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
 
