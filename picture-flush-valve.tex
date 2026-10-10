@@ -4,7 +4,7 @@
 
     \begin{tikzpicture}
         %图片
-        \node at (0,3) {\includegraphics[height=10cm]{g02.PNG}};
+        \node at (0,3) {\includegraphics[height=10cm]{g12.PNG}};
         \node at (0,-4) {\includegraphics[height=5cm]{g04.PNG}};
 
         %说明
@@ -14,7 +14,7 @@
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
         \def \itemNumber {2};
-        \def \centertPoint {-0.9,0.4};
+        \def \centertPoint {-1.4,3.6};
         \node at (-5,2) (\itemNumber) [text_box] {泵1反冲洗出水阀};
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
@@ -24,8 +24,18 @@
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
         \def \itemNumber {4};
-        \def \centertPoint {0.9,0.4};
+        \def \centertPoint {1.2,3.6};
         \node at (5,2) (\itemNumber) [text_box] {泵2反冲洗出水阀};
+        \draw [arrow] (\itemNumber) -- (\centertPoint);
+        \draw (\centertPoint) circle (0.4)[red];
+        \def \itemNumber {5};
+        \def \centertPoint {-1.1,4.3};
+        \node at (-6,4) (\itemNumber) [text_box] {泵1反冲洗隔离阀};
+        \draw [arrow] (\itemNumber) -- (\centertPoint);
+        \draw (\centertPoint) circle (0.4)[red];
+        \def \itemNumber {6};
+        \def \centertPoint {0.8,4.3};
+        \node at (6,4) (\itemNumber) [text_box] {泵2反冲洗隔离阀};
         \draw [arrow] (\itemNumber) -- (\centertPoint);
         \draw (\centertPoint) circle (0.4)[red];
 
